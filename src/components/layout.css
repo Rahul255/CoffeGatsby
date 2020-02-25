@@ -37,3 +37,13 @@ h1,h2,h3,h4,h5,h6{
   background-position: center;
   background-size: cover;
 }
+
+.btn-yellow {
+  color:var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+
+.btn-yellow:hover {
+  background: var(--mainYellow);
+  color: var(--mainBrown) !important;
+}
